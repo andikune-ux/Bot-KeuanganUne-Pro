@@ -21,7 +21,7 @@ scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/au
 # Railway/Termux membaca kredensial dari file JSON atau Env
 creds = ServiceAccountCredentials.from_json_keyfile_name('credentials.json', scope)
 client = gspread.authorize(creds)
-sheet = client.open_by_key(QQzKXtzvD4Tsj-qrF13aXYJl9Kznozx3BcPY9Tg2uEg).sheet1
+sheet = client.open_by_key(1QQzKXtzvD4Tsj-qrF13aXYJl9Kznozx3BcPY9Tg2uEg).sheet1
 # =================================================
 
 # 1. FITUR BACA NOTA/STRUK DARI FOTO
