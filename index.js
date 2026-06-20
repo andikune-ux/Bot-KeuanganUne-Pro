@@ -11,9 +11,9 @@ import io
 # ================= CONFIGURATION =================
 TOKEN = os.environ.get('8864074125:AAGDEdUFtqHgKaeUDcG4w_YscC_8cs1oDTs')
 GEMINI_KEY = os.environ.get('AIzaSyB0Si1e_4iOHkyJtS2jno3_-H9ep1bqW0M')
-SPREADSHEET_ID = os.environ.get('QQzKXtzvD4Tsj-qrF13aXYJl9Kznozx3BcPY9Tg2uEg')
+SPREADSHEET_ID = os.environ.get('1QQzKXtzvD4Tsj-qrF13aXYJl9Kznozx3BcPY9Tg2uEg')
 
-bot = telebot.TeleBot(8864074125:AAGDEdUFtqHgKaeUDcG4w_YscC_8cs1oDTs)
+bot = telebot.TeleBot("8864074125:AAGDEdUFtqHgKaeUDcG4w_YscC_8cs1oDTs")
 ai_client = genai.Client(api_key=AIzaSyB0Si1e_4iOHkyJtS2jno3_-H9ep1bqW0M)
 
 # Google Sheets Setup
